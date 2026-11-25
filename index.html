@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zikirmatik Gizlilik Politikası</title>
+<style>
+  :root { --ink:#0F1F1A; --muted:#4A5B56; --accent:#00836A; --ground:#EFF8F4; --card:#FFFFFF; --line:#B7CCC5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#ECF6F2; --muted:#A9BEB7; --accent:#34D8A8; --ground:#0B1512; --card:#15241F; --line:#3B5A50; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ground); color:var(--ink); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:28px 24px; }
+  h1 { font-size: 30px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size: 20px; margin: 28px 0 6px; color:var(--accent); }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  .muted { color:var(--muted); font-size:15px; }
+  nav { margin-bottom:18px; font-size:15px; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#tr">Türkçe</a> · <a href="#en">English</a></nav>
+
+<div class="card" id="tr">
+<h1>Zikirmatik Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 25 Kasım 2026</p>
+
+<p>Bu politika, Xabze Kaizen Technology tarafından yayınlanan Zikirmatik Android uygulamasının (“Uygulama”) bilgilerinizi nasıl işlediğini açıklar. Kısaca: <strong>hesap yoktur, sunucumuz yoktur, verileriniz telefonunuzda kalır.</strong></p>
+
+<h2>1. Topladığımız veriler</h2>
+<p>Uygulama bize hiçbir kişisel veri göndermez. Kayıt, hesap, e-posta veya telefon numarası istenmez. Analiz, takip veya reklam aracı kullanılmaz.</p>
+
+<h2>2. Cihazınızda saklanan veriler</h2>
+<ul>
+  <li>Kendi oluşturduğunuz zikir adları, hedefler, sayımlar, günlük istatistikler, hatırlatıcı saatleri ve uygulama ayarları yalnızca telefonunuzda saklanır.</li>
+  <li>Bu veriler AES-256 ile şifrelenir. Şifre anahtarı Android Keystore korumalı güvenli depoda tutulur.</li>
+  <li>Bu veriler Google bulut yedeklemesine dahil edilmez. Uygulamayı silerseniz veriler de silinir.</li>
+</ul>
+
+<h2>3. Konum</h2>
+<p>Konum izni yalnızca Kıble pusulası için istenir ve sadece siz Kıble ekranını açtığınızda kullanılır. Konumunuz kıble yönünü, Kâbe'ye uzaklığı ve manyetik sapmayı hesaplamak için telefonunuzda işlenir. Kaydedilmez ve hiçbir yere gönderilmez. Konumun kendisi telefonunuzun konum hizmeti (Android ve Google Play Hizmetleri) tarafından sağlanır; bu hizmetler kendi gizlilik koşullarına tabidir. İzni vermezseniz Kıble dışındaki tüm özellikler çalışmaya devam eder.</p>
+
+<h2>4. Bildirimler</h2>
+<p>Hatırlatıcılar, akıllı hatırlatmalar ve kilit ekranı sayacı bildirimleri tamamen telefonunuzda oluşturulur ve zamanlanır. Akıllı hatırlatmalar yalnızca cihazdaki kullanım bilgilerinize (o gün sayım yapıp yapmadığınız, yarım kalan tur, genellikle hangi saatlerde saydığınız) göre hesaplanır; bu bilgiler cihazdan çıkmaz. Bildirimleri Ayarlar'dan veya telefonunuzun ayarlarından kapatabilirsiniz.</p>
+
+<h2>5. Yedekleme</h2>
+<p>“Yedeği dışa aktar” seçeneğini kullanırsanız verileriniz bir JSON dosyası olarak oluşturulur ve sizin seçtiğiniz yere (ör. bir paylaşım uygulaması veya dosya klasörü) gönderilir. Bu dosya şifresizdir; nereye kaydettiğiniz veya kiminle paylaştığınız sizin kontrolünüzdedir.</p>
+
+<h2>6. Bağış (uygulama içi satın alma)</h2>
+<p>İsteğe bağlı bağışlar Google Play faturalandırma sistemi üzerinden yapılır. Ödeme bilgilerinizi Google işler; bu bilgileri biz görmeyiz ve saklamayız. Google, işlem kaydını kendi gizlilik politikasına göre tutar.</p>
+
+<h2>7. Google Play bağlantıları</h2>
+<p>“Uygulamayı puanla” ve diğer uygulamalarımızı tanıtan bağlantılar Google Play mağazasını açar. Bu sayfalarda yaptığınız işlemler Google'ın gizlilik politikasına tabidir.</p>
+
+<h2>8. İzinler</h2>
+<ul>
+  <li><strong>Konum:</strong> Kıble yönü hesaplaması.</li>
+  <li><strong>Bildirim:</strong> Hatırlatıcılar ve kilit ekranı sayacı.</li>
+  <li><strong>Açılışta çalıştırma:</strong> Telefon yeniden başladığında hatırlatıcıların yeniden kurulması.</li>
+  <li><strong>Titreşim:</strong> Sayım ve hedef bildirimi.</li>
+</ul>
+
+<h2>9. Çocuklar</h2>
+<p>Uygulama herhangi bir yaştan kullanıcıdan bilerek kişisel veri toplamaz.</p>
+
+<h2>10. Değişiklikler</h2>
+<p>Bu politika değişirse güncel hali bu sayfada yayınlanır ve üstteki tarih güncellenir.</p>
+
+<h2>11. İletişim</h2>
+<p>Sorularınız için: <a href="mailto:[E-POSTA ADRESİNİZ]">[E-POSTA ADRESİNİZ]</a></p>
+</div>
+
+<hr>
+
+<div class="card" id="en" lang="en">
+<h1>Zikirmatik Privacy Policy</h1>
+<p class="muted">Last updated: November 25, 2026</p>
+
+<p>This policy explains how the Zikirmatik Android app (“App”), published by [DEVELOPER NAME], handles your information. In short: <strong>no account, no server, your data stays on your phone.</strong></p>
+
+<h2>1. Data we collect</h2>
+<p>The App sends no personal data to us. No sign-up, account, email or phone number is required. No analytics, tracking or advertising tools are used.</p>
+
+<h2>2. Data stored on your device</h2>
+<ul>
+  <li>The names, targets, counts, daily statistics, reminder times and settings you create are stored only on your phone.</li>
+  <li>This data is encrypted with AES-256; the key is kept in Android Keystore-backed secure storage.</li>
+  <li>This data is excluded from Google cloud backup. Uninstalling the App deletes it.</li>
+</ul>
+
+<h2>3. Location</h2>
+<p>Location permission is requested only for the Qibla compass and used only while you have the Qibla screen open. Your location is processed on your phone to calculate the Qibla direction, distance to the Kaaba and magnetic declination. It is not stored and not sent anywhere. The location itself is provided by your phone's location service (Android and Google Play services), which is subject to its own terms. If you deny the permission, every feature except Qibla keeps working.</p>
+
+<h2>4. Notifications</h2>
+<p>Reminders, smart reminders and the lock screen counter notification are created and scheduled entirely on your phone. Smart reminders are calculated only from on-device usage information (whether you counted that day, an unfinished round, the times you usually count); this information never leaves the device. You can turn notifications off in Settings or in your phone's settings.</p>
+
+<h2>5. Backup</h2>
+<p>If you use “Export backup”, your data is written to a JSON file and sent to a destination you choose (for example a sharing app or a folder). This file is not encrypted; where you save it or whom you share it with is under your control.</p>
+
+<h2>6. Donations (in-app purchases)</h2>
+<p>Optional donations are processed through Google Play Billing. Google handles your payment details; we never see or store them. Google keeps the transaction record under its own privacy policy.</p>
+
+<h2>7. Google Play links</h2>
+<p>“Rate the app” and links promoting our other apps open the Google Play Store. Anything you do there is subject to Google's privacy policy.</p>
+
+<h2>8. Permissions</h2>
+<ul>
+  <li><strong>Location:</strong> Qibla direction calculation.</li>
+  <li><strong>Notifications:</strong> Reminders and the lock screen counter.</li>
+  <li><strong>Run at startup:</strong> Restoring reminders after the phone restarts.</li>
+  <li><strong>Vibration:</strong> Count and target feedback.</li>
+</ul>
+
+<h2>9. Children</h2>
+<p>The App does not knowingly collect personal data from users of any age.</p>
+
+<h2>10. Changes</h2>
+<p>If this policy changes, the updated version will be published on this page with a new date above.</p>
+
+<h2>11. Contact</h2>
+<p>Questions: <a href="mailto:xabzekaizen@gmail.com">xabzekaizen@gmail.com</a></p>
+</div>
+</main>
+</body>
+</html>
